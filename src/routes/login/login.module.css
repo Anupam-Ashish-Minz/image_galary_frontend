@@ -1,0 +1,47 @@
+.baseContainer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.baseContainer form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+}
+
+.baseContainer form > label {
+  text-transform: capitalize;
+}
+
+.baseContainer form > input {
+  color: #fff;
+  background-color: #111;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.signinButton {
+  color: #fff;
+  background-color: hsl(220, 80%, 50%);
+  border: 0;
+  padding: 0.5rem;
+  margin: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.registerLink {
+  color: #f2f2f2;
+  padding-left: 2rem;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 876px) {
+  .baseContainer form {
+    width: 50%;
+    padding: 5rem;
+  }
+}

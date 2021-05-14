@@ -1,0 +1,8 @@
+.baseContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.baseContainer * {
+  color: white;
+}
