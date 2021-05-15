@@ -1,0 +1,11 @@
+.baseContainer {
+  padding: 2rem;
+}
+
+.logoutButton {
+  background-color: hsl(220, 80%, 50%);
+  color: #fff;
+  border: 0;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
