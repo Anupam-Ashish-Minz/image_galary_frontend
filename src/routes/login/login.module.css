@@ -25,7 +25,7 @@
 
 .signinButton {
   color: var(--fgColorLight);
-  background-color: var(--primaryColor);
+  background-color: var(--primaryColorDark);
   border: 0;
   padding: 0.5rem;
   margin: 2rem;

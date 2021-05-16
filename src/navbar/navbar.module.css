@@ -4,16 +4,16 @@
 .appBar {
   background-color: var(--primaryColorDark);
   display: flex;
-  justify-content: right;
-  position: fixed;
   width: 100%;
+  /*justify-content: end;*/
+  position: absolute;
   top: 0;
 }
 
 .dropDown {
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   top: 2.5rem;
   right: 0;
   padding-top: 3rem;
@@ -39,10 +39,10 @@
 .dropDownButton {
   width: 2.5rem;
   height: 2.5rem;
-  margin-right: 1rem;
-  background-color: var(--primaryColorDark);
+  background-color: inherit;
   color: var(--fgColor);
   outline: none;
   border: none;
+  margin-left: calc(100% - 3.5rem);
 }
 
