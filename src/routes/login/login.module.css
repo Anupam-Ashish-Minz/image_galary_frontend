@@ -16,16 +16,16 @@
 }
 
 .baseContainer form > input {
-  color: #fff;
-  background-color: #111;
+  color: var(--fgColorLight);
+  background-color: var(--bgColor);
   margin: 0.5rem;
   padding: 0.5rem;
   border: none;
 }
 
 .signinButton {
-  color: #fff;
-  background-color: hsl(220, 80%, 50%);
+  color: var(--fgColorLight);
+  background-color: var(--primaryColor);
   border: 0;
   padding: 0.5rem;
   margin: 2rem;
@@ -34,7 +34,7 @@
 }
 
 .registerLink {
-  color: #f2f2f2;
+  color: var(--fgColor);
   padding-left: 2rem;
   text-transform: capitalize;
 }

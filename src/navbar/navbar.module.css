@@ -1,8 +1,41 @@
 .baseContainer {
-  display: flex;
-  flex-direction: column;
 }
 
-.baseContainer * {
-  color: white;
+.appBar {
+  background-color: var(--primaryColorDark);
 }
+
+.dropDown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--bgColorDark);
+}
+
+.navLink {
+  color: var(--bgColorLight);
+  padding: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navLink:active {
+  color: var(--primaryColor);
+}
+
+.navLink:hover {
+  color: var(--primaryColor);
+}
+
+.dropDownButton {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primaryColorDark);
+  color: var(--fgColor);
+  outline: none;
+  border: none;
+}
+

@@ -3,8 +3,8 @@
 }
 
 .logoutButton {
-  background-color: hsl(220, 80%, 50%);
-  color: #fff;
+  background-color: var(--primaryColor);
+  color: var(--fgColorLight);
   border: 0;
   padding: 0.5rem;
   text-transform: uppercase;
